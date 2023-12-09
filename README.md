@@ -346,7 +346,7 @@ div class="doc-body">
     //$result contains the response back.
 ?&gt;</code></pre>
 
-                                        <div class="code-block-header">Example Responses</div>
+                              
 
 <pre><code class="language-php" id="response">//Error Response.
 {
@@ -362,54 +362,4 @@ div class="doc-body">
 }
 </code></pre>
 
-                                    </div><!-- code-block end -->
-                                </div>
-                            </div>
-                        </div><!-- doc-section end -->
-                        <div class="doc-section" id="ipn">
-                            <div class="doc-content">
-                                <section id="">
-                                    <h2>Validate The Payment and IPN</h2>
-                                    <p class="mt-2">This section describes the process to get your instant payment notification.</p>
-                                    <hr>
-                                    <p>
-                                        To initiate the payment follow the example code and be careful with the perameters. You will need to make request with these following API end points.                                    </p>
-                                    <p>
-                                        <strong>End Point:</strong> <span class="text--base">Your business application ipn url.</span>
-                                    </p>
-                                    <p><strong>Request Method:</strong> <span class="text--base">POST</span></p>
-                                </section>
-                                <section id="setting-two">
-                                    <p>You will get following parameters below.</p>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Param Name</th>
-                                                    <th>Description</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>status</td>
-                                                    <td>Payment success status.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>identifier</td>
-                                                    <td>Identifier is basically for identify payment at your end.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>signature</td>
-                                                    <td>A hash signature to verify your payment at your end.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>data</td>
-                                                    <td> Data contains some basic information with charges, amount, currency, payment transaction id etc.</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div><!-- table-responsive end -->
-                                </section>
-                            </div>
-    </div>
-    <!-- documentation section end -->
+                                
