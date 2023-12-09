@@ -15,10 +15,17 @@
                     <li>Developer - Api Documentation</li>
 
                     <div class="doc-section" id="introduction-section">
+                           <div class="doc-section" id="currency">
                             <div class="doc-content">
-                                <section id="introduction">
-                                    <h3>Introduction</h3>
-                                    <section id="setting-two">
+                                <section id="">
+                                    <h2>Supported Currencies</h2>
+                                    <p class="mt-2">This section describes the currencies supported by <strong>WestinPay</strong></p>
+                                    <hr>
+                                    <p>
+                                        <strong>WestinPay</strong>
+                                         allows to make transaction with below currencies. Any new currency may update in future.                                    </p>
+                                </section>
+                                <section id="setting-two">
                                     <div class="table-responsive">
                                         <table class="table table-bordered">
                                             <thead>
@@ -147,23 +154,6 @@
                                                                                             </tbody>
                                         </table>
                                     </div><!-- table-responsive end -->
-                                </section>
-                            </div><!-- doc-content end -->
-                        </div><!-- doc-section end -->
-                        <div class="doc-section" id="api-key">
-                            <div class="doc-content">
-                                <section id="">
-                                    <h2>Get The Api Key</h2>
-                                    <p class="mt-2">This section describes how you can get your api key.</p>
-                                    <hr>
-                                    <p class="text-justify">Login to your <strong>WestinPay</strong>
-                                        merchant account. If you don't have any ?                                         <a target="_blank" href=" https://westinpay.com/merchant ">Click Here</a>
-                                    </p>
-                                    <p>Next step is to find the <span class="text--base">Api Key</span>
-                                        menu in your dashboard sidebar. Click the menu.                                    </p>
-                                    <p class="text-justify">The api keys can be found there which is <strong>Public key and Secret key.</strong>
-                                        Use these keys to initiate the API request. Every time you can generate new API key by clicking                                        <span class="text--base">Generate Api Key</span>
-                                        button. Remember do not share these keys with anyone.                                    </p>
                                 </section>
                             </div><!-- doc-content end -->
                         </div><!-- doc-section end -->
