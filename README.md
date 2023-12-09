@@ -310,13 +310,7 @@ div class="doc-body">
                                         </table>
                                     </div><!-- table-responsive end -->
 
-                                </section>
-                            </div><!-- doc-content end -->
-                            <div class="doc-code">
-                                <div class="doc-code-inner">
-                                    <div class="code-block">
-                                        <button class="clipboard-btn" data-clipboard-target="#php">copy</button>
-                                        <div class="code-block-header">Example PHP code</div>
+                
 
 <pre><code class="language-php" id="php">&lt;?php
     $parameters = [
