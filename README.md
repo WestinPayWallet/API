@@ -54,9 +54,7 @@
     //$result contains the response back.
 ?&gt;</code></pre>
 
-                                    </div><!-- code-block end -->
-                                    <div class="code-block">
-                                        <button class="clipboard-btn" data-clipboard-target="#response">copy</button>
+                                 
                                         <div class="code-block-header">Example Responses</div>
 
 <pre><code class="language-php" id="response">//Error Response.
