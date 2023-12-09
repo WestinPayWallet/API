@@ -13,3 +13,16 @@
                 <ul class="page-breadcrumb justify-content-center">
                     <li><a href="https://westinpay.com">Dashboard</a></li>
                     <li>Developer - Api Documentation</li>
+
+                    <div class="doc-section" id="introduction-section">
+                            <div class="doc-content">
+                                <section id="introduction">
+                                    <h3>Introduction</h3>
+                                    <p class="mt-2">This section describes the <strong>WestinPay</strong>
+                                        payment gateway API.                                    </p>
+                                    <hr>
+                                    <p class="text-justify">
+                                        <strong>WestinPay</strong> API is easy to implement in your business software. Our API is well formatted URLs, accepts cURL requests, returns JSON responses.                                    </p>
+                                    <p class="text-justify">
+                                        You can use the API in test mode, which does not affect your live data. The API key is use to authenticate the request and determines the request is valid payment or not. For test mode just use the sandbox URL and In case of live mode use the live URL from  section <a href="#initiate">Initiate Payment</a> .
+                                    </p>
