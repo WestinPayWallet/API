@@ -13,163 +13,67 @@
                 <ul class="page-breadcrumb justify-content-center">
                     <li><a href="https://westinpay.com">Dashboard</a></li>
                     <li>Developer - Api Documentation</li>
+<!-- doc-content end -->
+                            <div class="doc-code">
+                                <div class="doc-code-inner">
+                                    <div class="code-block">
+                                        <button class="clipboard-btn" data-clipboard-target="#php">copy</button>
+                                        <div class="code-block-header">Example PHP code</div>
 
-                     <!-- documentation section start -->
-    <div class="pt-50 pb-50 documentation-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
-                    <button class="sidebar-menu-open-btn mb-5"><i class="las la-bars"></i> Menu</button>
-                    <div class="documentation-menu-wrapper">
-                        <button class="sidebar-close-btn"><i class="las la-times"></i></button>
-                        <nav class="sidebar-menu">
-                            <ul class="menu">
-                                <li class="has_child"><a href="#introduction-section">Get started</a>
-                                    <ul class="drp-menu">
-                                        <li class="active"><a href="#introduction">Introduction</a></li>
-                                        <li><a href="#currency">Supported Currencies</a></li>
-                                        <li><a href="#api-key">Get Api Key</a></li>
-                                        <li><a href="#initiate">Initiate Payment</a></li>
-                                    <!-- doc-section end -->
-                        <div class="doc-section" id="currency">
-                            <div class="doc-content">
-                                <section id="">
-                                    <h2>Supported Currencies</h2>
-                                    <p class="mt-2">This section describes the currencies supported by <strong>WestinPay</strong></p>
-                                    <hr>
-                                    <p>
-                                        <strong>WestinPay</strong>
-                                         allows to make transaction with below currencies. Any new currency may update in future.                                    </p>
-                                </section>
-                                <section id="setting-two">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Currency Name</th>
-                                                    <th>Currency Symbol</th>
-                                                    <th>Currency Code</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                                                                    <tr>
-                                                        <td>United States Dollar</td>
-                                                        <td>$</td>
-                                                        <td>USD</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>GBP</td>
-                                                        <td>£</td>
-                                                        <td>GBP</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Euro</td>
-                                                        <td>€</td>
-                                                        <td>EUR</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Canadian dollar</td>
-                                                        <td>CAD</td>
-                                                        <td>CAD</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Swiss franc</td>
-                                                        <td>CHF</td>
-                                                        <td>CHF</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Australian dollar</td>
-                                                        <td>A$</td>
-                                                        <td>AUD</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Hong Kong dollar</td>
-                                                        <td>HK$</td>
-                                                        <td>HKD</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Indian rupee</td>
-                                                        <td>₹</td>
-                                                        <td>INR</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>New Zealand dollar</td>
-                                                        <td>NZ$</td>
-                                                        <td>NZD</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Russian ruble</td>
-                                                        <td>₽</td>
-                                                        <td>RUB</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Romanian leu</td>
-                                                        <td>L</td>
-                                                        <td>RON</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Bulgarian lev</td>
-                                                        <td>BGN</td>
-                                                        <td>BGN</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Swedish krona</td>
-                                                        <td>kr</td>
-                                                        <td>SEK</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Turkish lira</td>
-                                                        <td>₺</td>
-                                                        <td>TRY</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Brazilian real</td>
-                                                        <td>R$</td>
-                                                        <td>BRL</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Polonya zlotisi</td>
-                                                        <td>zł</td>
-                                                        <td>PLN</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>South Africa ZAR</td>
-                                                        <td>R</td>
-                                                        <td>ZAR</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>Bitcoin</td>
-                                                        <td>₿</td>
-                                                        <td>BTC</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>ETHEREUM</td>
-                                                        <td>Ξ</td>
-                                                        <td>ETH</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>DOGECOİN</td>
-                                                        <td>Ð</td>
-                                                        <td>DOGE</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>AZN MANAT</td>
-                                                        <td>₼</td>
-                                                        <td>AZN</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>TRX</td>
-                                                        <td>TRX</td>
-                                                        <td>TRX</td>
-                                                    </tr>
-                                                                                                    <tr>
-                                                        <td>USDT.TRC20</td>
-                                                        <td>₮</td>
-                                                        <td>USDT</td>
-                                                    </tr>
-                                                                                            </tbody>
-                                        </table>
-                                    </div><!-- table-responsive end -->
-                                </section>
-                            </div><!-- doc-content end -->
+<pre><code class="language-php" id="php">&lt;?php
+    $parameters = [
+        'identifier' =&gt; 'DFU80XZIKS',
+        'currency' =&gt; 'USD',
+        'amount' =&gt; 100.00,
+        'details' =&gt; 'Purchase T-shirt',
+        'ipn_url' =&gt; 'http://example.com/ipn_url.php',
+        'cancel_url' =&gt; 'http://example.com/cancel_url.php',
+        'success_url' =&gt; 'http://example.com/success_url.php',
+        'public_key' =&gt; 'your_public_key',
+        'site_logo' =&gt; 'https://westinpay.com/assets/images/logoIcon/logo.png',
+        'checkout_theme' =&gt; 'dark',
+        'customer_name' =&gt; 'John Doe',
+        'customer_email' =&gt; 'john@mail.com',
+
+    ];
+
+    //live end point
+    $url = "https://westinpay.com/payment/initiate";
+
+    //test end point
+    $url = "https://westinpay.com/sandbox/payment/initiate";
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POSTFIELDS,  $parameters);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $result = curl_exec($ch);
+    curl_close($ch);
+
+    //$result contains the response back.
+?&gt;</code></pre>
+
+                                    </div><!-- code-block end -->
+                                    <div class="code-block">
+                                        <button class="clipboard-btn" data-clipboard-target="#response">copy</button>
+                                        <div class="code-block-header">Example Responses</div>
+
+<pre><code class="language-php" id="response">//Error Response.
+{
+    "error": "true",
+    "message": "Invalid api key"
+}
+
+//Success Response.
+{
+    "success": "ok",
+    "message": "Payment Initiated. Redirect to url.",
+    "url":"http://example.com/initiate/payment/checkout?payment_id=eJSAASDxdrt4DASDASVNASJA7893232432cvmdsamnvASF"
+}
+</code></pre>
+
+                                    </div><!-- code-block end -->
+                                </div>
+                            </div>
                         </div><!-- doc-section end -->
