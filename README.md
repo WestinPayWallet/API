@@ -352,9 +352,6 @@ div class="doc-body">
     //$result contains the response back.
 ?&gt;</code></pre>
 
-                                    </div><!-- code-block end -->
-                                    <div class="code-block">
-                                        <button class="clipboard-btn" data-clipboard-target="#response">copy</button>
                                         <div class="code-block-header">Example Responses</div>
 
 <pre><code class="language-php" id="response">//Error Response.
@@ -419,55 +416,6 @@ div class="doc-body">
                                         </table>
                                     </div><!-- table-responsive end -->
                                 </section>
-                            </div><!-- doc-content end -->
-                            <div class="doc-code">
-                                <div class="doc-code-inner">
-                                    <div class="code-block">
-                                        <button class="clipboard-btn" data-clipboard-target="#ipn-s">copy</button>
-                                        <div class="code-block-header">Example PHP code</div>
-
-<pre><code class="language-php" id="ipn-s">&lt;?php
-    //Receive the response parameter
-    $status = $_POST['status'];
-    $signature = $_POST['signature'];
-    $identifier = $_POST['identifier'];
-    $data = $_POST['data'];
-
-    // Generate your signature
-    $customKey = $data['amount'].$identifier;
-    $secret = 'YOUR_SECRET_KEY';
-    $mySignature = strtoupper(hash_hmac('sha256', $customKey , $secret));
-
-    $myIdentifier = 'YOUR_GIVEN_IDENTIFIER';
-
-    if($status == &quot;success&quot; &amp;&amp; $signature == $mySignature &amp;&amp;  $identifier ==  $myIdentifier){
-        //your operation logic
-    }
-?&gt;</code></pre>
-
-                                    </div><!-- code-block end -->
-                                </div>
                             </div>
-                        </div><!-- doc-section end -->
-                        <div class="doc-section" id="demo">
-                            <div class="doc-content">
-                                <h2>Demo</h2>
-                                <p>You can use this <a href="https://westinpay.com/Westinpay.postman_collection.json" target="_blank">postman collection</a> to initiate payment. This collection is designed to simulate the payment scenario. To initiate a payment, change your API key and run the request.</p>
-                                <hr />
-                                <img src="https://westinpay.com/assets/images/2592B694-8EF5-4B7F-8168-6903E09E83DC.jpeg" />
-                                <p>Click on the url in the response.</p>
-                                <hr />
-                                <img src="https://westinpay.com/assets/images/20BC661C-3C34-4C9B-BAAD-D7BE95162806.jpeg" />
-                                <p>Enter the test user email address on the page that opens. test_mode@mail.com</p>
-                                <hr />
-                                <img src="https://westinpay.com/assets/images/AFCF2D90-B4A4-4710-8B12-B420F7ECB07F.jpeg" />
-                                <p>Enter the test verification code and confirm. It will redirect you to the successful url.</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- documentation section end -->
