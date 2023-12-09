@@ -7,7 +7,7 @@
 
 # API
 Automatic payment documentation with WestinPay Wallet
-div class="doc-body">
+
                         <div class="doc-section" id="introduction-section">
                             <div class="doc-content">
                                 <section id="introduction">
