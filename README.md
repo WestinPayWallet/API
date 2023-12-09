@@ -14,23 +14,7 @@
                     <li><a href="https://westinpay.com">Dashboard</a></li>
                     <li>Developer - Api Documentation</li>
 
-                     <div class="main-wrapper">
-         
-            <section class="inner-hero overlay--one bg_img" style="background-image: url('https://westinpay.com/assets/images/frontend/breadcrumb/6501e2289bd661694622248.png');">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <h2 class="page-title text-center text-white">Developer - Api Documentation</h2>
-                <ul class="page-breadcrumb justify-content-center">
-                    <li><a href="https://westinpay.com">Dashboard</a></li>
-                    <li>Developer - Api Documentation</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-        
-            <!-- documentation section start -->
+                     <!-- documentation section start -->
     <div class="pt-50 pb-50 documentation-section">
         <div class="container">
             <div class="row">
@@ -500,3 +484,23 @@
                         </div><!-- doc-section end -->
                         <div class="doc-section" id="demo">
                             <div class="doc-content">
+                                <h2>Demo</h2>
+                                <p>You can use this <a href="https://westinpay.com/Westinpay.postman_collection.json" target="_blank">postman collection</a> to initiate payment. This collection is designed to simulate the payment scenario. To initiate a payment, change your API key and run the request.</p>
+                                <hr />
+                                <img src="https://westinpay.com/assets/images/2592B694-8EF5-4B7F-8168-6903E09E83DC.jpeg" />
+                                <p>Click on the url in the response.</p>
+                                <hr />
+                                <img src="https://westinpay.com/assets/images/20BC661C-3C34-4C9B-BAAD-D7BE95162806.jpeg" />
+                                <p>Enter the test user email address on the page that opens. test_mode@mail.com</p>
+                                <hr />
+                                <img src="https://westinpay.com/assets/images/AFCF2D90-B4A4-4710-8B12-B420F7ECB07F.jpeg" />
+                                <p>Enter the test verification code and confirm. It will redirect you to the successful url.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- documentation section end -->
