@@ -164,8 +164,7 @@ div class="doc-body">
                                     <h2>Get The Api Key</h2>
                                     <p class="mt-2">This section describes how you can get your api key.</p>
                                     <hr>
-                                    <p class="text-justify">Login to your <strong>WestinPay</strong>
-                                        merchant account. If you don't have any ?                                         <a target="_blank" href=" https://westinpay.com/merchant ">Click Here</a>
+                                    <p class="text-justify">Login to your <strong>WestinPay</strong> merchant account. If you don't have any ? <a target="_blank" href=" https://westinpay.com/merchant ">Click Here</a>
                                     </p>
                                     <p>Next step is to find the <span class="text--base">Api Key</span>
                                         menu in your dashboard sidebar. Click the menu.                                    </p>
