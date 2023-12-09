@@ -1,6 +1,6 @@
 # API
 Automatic payment documentation with WestinPay Wallet
-div class="doc-body">
+
                         <div class="doc-section" id="introduction-section">
                             <div class="doc-content">
                                 <section id="introduction">
@@ -164,7 +164,7 @@ div class="doc-body">
                                     <h2>Get The Api Key</h2>
                                     <p class="mt-2">This section describes how you can get your api key.</p>
                                     <hr>
-                                    <p class="text-justify">Login to your <strong>WestinPay</strong> merchant account. If you don't have any ? <a target="_blank" href=" https://westinpay.com/merchant ">Click Here</a>
+                                    <p class="text-justify">Login to your <strong>WestinPay</strong> merchant account. If you don't have any ? <a target="_blank" href=" https://westinpay.com/merchant ">https://westinpay.com/api/documentation#</a>
                                     </p>
                                     <p>Next step is to find the <span class="text--base">Api Key</span>
                                         menu in your dashboard sidebar. Click the menu.                                    </p>
@@ -303,14 +303,7 @@ div class="doc-body">
                                         </table>
                                     </div><!-- table-responsive end -->
 
-                                </section>
-                            </div><!-- doc-content end -->
-                            <div class="doc-code">
-                                <div class="doc-code-inner">
-                                    <div class="code-block">
-                                        <button class="clipboard-btn" data-clipboard-target="#php">copy</button>
-                                        <div class="code-block-header">Example PHP code</div>
-
+      
 <pre><code class="language-php" id="php">&lt;?php
     $parameters = [
         'identifier' =&gt; 'DFU80XZIKS',
