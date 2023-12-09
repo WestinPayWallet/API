@@ -7,7 +7,7 @@
 
 # API
 Automatic payment documentation with WestinPay Wallet
-
+div class="doc-body">
                         <div class="doc-section" id="introduction-section">
                             <div class="doc-content">
                                 <section id="introduction">
@@ -254,7 +254,7 @@ Automatic payment documentation with WestinPay Wallet
                                                     <td>details</td>
                                                     <td>string (100)</td>
                                                     <td>
-                                                         <span class="badge badge--danger font-size--12px">Required</span>
+                                                        <span class="badge badge--danger font-size--12px">Required</span>
                                                         Details of your payment or transaction.                                                    </td>
                                                 </tr>
                                                 <tr>
